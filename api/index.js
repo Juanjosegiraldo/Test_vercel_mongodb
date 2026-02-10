@@ -4,8 +4,8 @@ const port = 3000;
 
 require("dotenv").config();
 
-require("./db");
-const User = require("./models/User");
+require("../db");
+const User = require("../models/User");
 
 app.use(express.json());
 
